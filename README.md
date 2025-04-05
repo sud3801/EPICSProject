@@ -1,8 +1,10 @@
 # EPICS (Engineering Projects for Community Services)
-Transmission Line fault Detection
+
+## Transmission Line fault Detection
+
 This is an IoT(Internet of things) based project
 Now a days transmission line protection is a key problem in power transmission lines because (85-87) percentage of power system disturbances are occurring in 
-transmission lines. Identification of fault source is tedious task; fast fault detection 
+transmission lines. Identification of fault source is tedious task; fast fault detection
 can help to protect the equipment before any significant damage of the equipment. 
 The exact fault location can help service man to remove persistent of the faults and 
 locate the areas where the faults occur regularly, thus reducing the occurrence of 
@@ -24,7 +26,7 @@ through GSM Modem.
 
 **Keywords :**  Arduino Nano, Microcontroller, LCD, SMS.
 
-## WORKING  
+### WORKING  
 The set up or field device consists of 2 major components, GSM and microcontroller. 
 The over voltage sensor, fire sensor, short circuit and open circuit sensors are attached 
 to both microcontroller and transmissions lines maintaining the connection between 
@@ -38,14 +40,16 @@ transmission lines the fire sensor comes in to work, if there is any open and sh
 circuit respective sensors come in to work. In this process we can detect four types of 
 faults They are: over voltage fault, fire fault, short circuit fault and open circuit 
 fault. 
-- Over Voltage Fault: It occurs whenever high current follows through 
+- **Over Voltage Fault**: It occurs whenever high current follows through 
 transmission line and This system detects that and send SMS by GMS 
 modem and displays the fault. 
-- Fire Fault: If fire accidents take place in transmission line and This system 
+- **Fire Fault:** If fire accidents take place in transmission line and This system 
 detects that by fire sensor and send SMS by GMS modem and displays the 
 fault. 
-- Short Circuit Fault:  When two lines touches each other in transmission 
+- **Short Circuit Fault:**  When two lines touches each other in transmission 
 line and This system detects that and send SMS by GMS modem and 
 displays the fault. 
-- Open Circuit Fault: Whenever line is broken in transmission line and This 
+- **Open Circuit Fault:** Whenever line is broken in transmission line and This 
 system detects that and send SMS by GMS modem and displays the fault .
+### Prototype Image
+<img src="./EPICSProject_photo.jpg" width="100%" height="100%">
