@@ -1,4 +1,4 @@
-# EPICS (Engineering Projects for Community Services) Project
+# EPICS (Engineering Projects for Community Services)
 Transmission Line fault Detection
 This is an IoT(Internet of things) based project
 Now a days transmission line protection is a key problem in power transmission lines because (85-87) percentage of power system disturbances are occurring in 
